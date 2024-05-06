@@ -1,9 +1,0 @@
-i, j;
-{
-	input i;
-  	i = 42 ;
-  	j = i + 1; 
-	output i;
-	output j;
-}
-1 2 3
