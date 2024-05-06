@@ -1,0 +1,38 @@
+n, x, z;
+{
+    input n;
+    input z;
+    x = n * 2;
+    SWITCH x {
+        CASE 2:{
+            SWITCH z {
+                CASE 2:{
+                z = z + 10;
+                output z;
+                output z;
+                }
+                DEFAULT:{
+                    output n;
+                }
+            } 
+            output x;
+        }
+        CASE 4:{
+            output x;
+        }
+        DEFAULT : {
+            SWITCH z {
+                CASE 2:{
+                z = z + 10;
+                output z;
+                }
+                DEFAULT:{
+                    output n;
+                }
+            } 
+            output x;
+            
+        }
+    }
+}
+1 2

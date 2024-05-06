@@ -1,0 +1,21 @@
+n , b, c, d, i;
+{
+    input n;
+    input b;
+    FOR (i = 0; i < n; i = i + 1;) {
+        SWITCH i {
+            CASE 1: {
+                output b;
+            }
+            CASE 9: {
+                input c;
+                output c;
+            }
+            CASE 10:{
+                input d;
+                output d;
+            }
+        }
+    }
+}
+10 5 25 50

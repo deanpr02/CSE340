@@ -1,0 +1,24 @@
+n, a;
+{
+    input n;
+    input a; 
+
+    SWITCH n {
+        CASE 1:{
+            a = a+1; 
+            output a;
+        }  
+        CASE 2:{
+            a = a+2;
+            output a;
+        }  
+        DEFAULT:{
+            a = a+3;
+            output a;
+        }         
+    }
+
+    a = a +1; 
+    output a; 
+}
+10 0

@@ -1,0 +1,19 @@
+a, b, c;
+{
+    input a; 
+    input b; 
+    SWITCH a {
+        CASE 1:{
+            output a;
+        }
+        CASE 2:{  
+            output b;
+        }
+        DEFAULT:{
+            input c;
+            output c;
+        }
+    }
+}
+    
+3 2 3
